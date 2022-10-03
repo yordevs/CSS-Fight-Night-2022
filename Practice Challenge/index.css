@@ -1,0 +1,413 @@
+.Grid-Holder {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 300px);
+  top: 60px;
+  left: 0px;
+  height: calc(100vh - 50px);
+  width: 100vw;
+  overflow: scroll;
+}
+
+.Challenge-Holder {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+/*---DEMO STYLING ---*/
+
+#Demo {
+  background-color: yellow;
+}
+.Demo-Square {
+  margin-top: 30px;
+  margin-left: 40px;
+  height: 70px;
+  width: 70px;
+  background-color: red;
+}
+
+.Demo-Circle {
+  margin-top: -50px;
+  margin-left: 95px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.Demo-Triangle {
+  margin-top: -20px;
+  margin-left: 5px;
+  width: 0; 
+  height: 0; 
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 90px solid green;
+}
+
+
+/*--CHALLENGE 1 STYLING */
+/* Please put all the styling for challenge 1 here */
+#Challenge-1 {
+  background-color: green;
+}
+
+.Challenge-1-Square {
+  width: 70px;
+  height: 70px;
+  margin-left: 5px;
+  margin-top: 5px;
+  background-color: greenyellow;
+}
+
+/*--CHALLENGE 2 STYLING */
+/* Please put all the styling for challenge 2 here */
+#Challenge-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: indigo;
+}
+
+.Challenge-2-Circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ff69b4;
+  border-style: solid;
+  border-color: white;
+}
+
+/*--CHALLENGE 3 STYLING */
+/* Please put all the styling for challenge 3 here */
+#Challenge-3 {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.Challenge-3-Triangle {
+  width: 0; 
+  height: 0; 
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 100px solid wheat;
+}
+
+/*--CHALLENGE 4 STYLING */
+/* Please put all the styling for challenge 4 here */
+#Challenge-4 {
+  background-color: lightblue;
+}
+
+.Challenge-4-House {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 65px;
+  background-color: burlywood;
+
+}
+
+.Challenge-4-Roof {
+  margin-top: -150px;
+  margin-left: 25px;
+  width: 0; 
+  height: 0; 
+  border-left: 75px solid transparent;
+  border-right:75px solid transparent;
+  border-bottom: 60px solid burlywood;
+
+}
+
+/*--CHALLENGE 5 STYLING */
+/* Please put all the styling for challenge 5 here */
+#Challenge-5 {
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Challenge-5-Diamond {
+  background-color: darkblue;
+  width: 141.42px;
+  height: 141.42px;
+  transform: rotate(45deg);
+}
+
+/*--CHALLENGE 6 STYLING */
+/* Please put all the styling for challenge 6 here */
+#Challenge-6 {
+  background-color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Challenge-6-Target-White {
+  z-index: 5;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+
+.Challenge-6-Target-Black {
+  z-index: 5;
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.Challenge-6-Target-Blue {
+  z-index: 5;
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.Challenge-6-Target-Red {
+  z-index: 5;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.Challenge-6-Target-Yellow {
+  z-index: 5;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.Challenge-6-Left-Foot {
+  position: absolute;
+  margin-right: 120px;
+  margin-top: 150px;
+  width: 10px;
+  height: 40px;
+  transform: rotate(30deg);
+  background-color: rgb(83, 68, 48);
+}
+
+.Challenge-6-Right-Foot {
+  position: absolute;
+  margin-right: -120px;
+  margin-top: 150px;
+  width: 10px;
+  height: 40px;
+  transform: rotate(-30deg);
+  background-color: rgb(83, 68, 48);
+}
+
+/*--CHALLENGE 7 STYLING */
+/* Please put all the styling for challenge 7 here */
+#Challenge-7 {
+  background-color: skyblue;
+}
+
+.Challenge-7-Cone {
+  margin-top: 85px;
+  margin-left: 70px;
+  width: 0; 
+  height: 0; 
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 90px solid rgb(247, 219, 95);
+}
+
+.Challenge-7-Ice-Cream {
+  margin-top: -150px;
+  margin-left: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.Challenge-7-Cherry {
+  margin-left: 110px;
+  margin-top: -80px;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.Challenge-7-Stalk {
+  margin-left: 125px;
+  margin-top: -29px;
+  transform: rotate(20deg);
+  width: 4px;
+  height: 11px;
+  background-color: rgb(87, 61, 22);
+}
+
+/*--CHALLENGE 8 STYLING */
+/* Please put all the styling for challenge 8 here */
+#Challenge-8 {
+  background-color: coral;
+}
+
+.Challenge-8-Top {
+  margin-left: 60px;
+  margin-top: 30px;
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  transform: skewX(-45deg) scaleY(0.70710678118);
+}
+.Challenge-8-Side {
+  margin-left: 95px;
+  margin-top: -35px;
+  background-color: rgb(148, 34, 34);
+  width: 50px;
+  height: 50px;
+  width: 70px;
+  height: 70px;
+  transform: skewY(-45deg) scaleX(0.70710678118);
+}
+.Challenge-8-Front {
+  margin-left: 35.5px;
+  margin-top: -46px;
+  background-color: rgb(211, 86, 86);
+  width: 70px;
+  height: 71px;
+}
+
+/*--CHALLENGE 9 STYLING */
+/* Please put all the styling for challenge 9 here */
+#Challenge-9 {
+  background-color: black;
+}
+
+.Challenge-9-Blade {
+  height: 120px;
+  margin-left: 90px;
+  margin-top: 5px;
+  width: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: rgb(32, 164, 204);
+}
+
+.Challenge-9-Handle {
+  height: 70px;
+  width: 30px;
+  margin-left: 85px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: rgb(160, 160, 160);
+}
+
+.Challenge-9-Band-1 {
+  height: 5px;
+  width: 30px;
+  margin-left: 85px;
+  margin-top: -40px;
+  background-color: rgb(59, 59, 59);
+}
+
+.Challenge-9-Band-2 {
+  height: 5px;
+  width: 30px;
+  margin-left: 85px;
+  margin-top: 10px;
+  background-color: rgb(59, 59, 59);
+}
+
+/*--CHALLENGE 10 STYLING */
+/* Please put all the styling for challenge 10 here */
+#Challenge-10 {
+  background-color: skyblue;
+}
+
+.Challenge-10-Ground {
+  width: 200px;
+  position: absolute;
+  margin-top: 170px;
+  height: 30px;
+  background-color: green;
+}
+
+.Challenge-10-Trunk {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 120px;
+  width: 30px;
+  height: 80px;
+  background-color: rgb(117, 79, 29);
+}
+
+.Challenge-10-Leaves-1 {
+  position: absolute;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 80px;
+  margin-top: 60px;
+  width: 60px;
+  height: 60px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.Challenge-10-Leaves-3 {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 70px;
+  background-color: green;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.Challenge-10-Leaves-2 {
+  position: absolute;
+  margin-left: 95px;
+  margin-top: 30px;
+  background-color: green;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.Challenge-10-Sun {
+  margin-left: -20px;
+  margin-top: -20px;
+  width: 70px;
+  height: 70px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.HardTest {
+  background-color: blue;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}

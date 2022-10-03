@@ -1,0 +1,108 @@
+.Grid-Holder {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 300px);
+  top: 60px;
+  left: 0px;
+  height: calc(100vh - 50px);
+  width: 100vw;
+  overflow: scroll;
+}
+
+.Challenge-Holder {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-style: solid;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+/*---DEMO STYLING ---*/
+
+#Demo {
+  background-color: yellow;
+}
+.Demo-Square {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  height: 70px;
+  width: 70px;
+  background-color: red;
+}
+
+.Demo-Circle {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: blue;
+}
+
+.Demo-Triangle {
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 90px solid green;
+}
+
+/*--CHALLENGE 1 STYLING */
+/* Please put all the styling for challenge 1 here */
+#Challenge-1 {
+}
+
+/*--CHALLENGE 2 STYLING */
+/* Please put all the styling for challenge 2 here */
+#Challenge-2 {
+}
+
+/*--CHALLENGE 3 STYLING */
+/* Please put all the styling for challenge 3 here */
+#Challenge-3 {
+}
+
+/*--CHALLENGE 4 STYLING */
+/* Please put all the styling for challenge 4 here */
+#Challenge-4 {
+}
+
+/*--CHALLENGE 5 STYLING */
+/* Please put all the styling for challenge 5 here */
+#Challenge-5 {
+}
+
+/*--CHALLENGE 6 STYLING */
+/* Please put all the styling for challenge 6 here */
+#Challenge-6 {
+}
+
+/*--CHALLENGE 7 STYLING */
+/* Please put all the styling for challenge 7 here */
+#Challenge-7 {
+}
+
+/*--CHALLENGE 8 STYLING */
+/* Please put all the styling for challenge 8 here */
+#Challenge-8 {
+}
+
+/*--CHALLENGE 9 STYLING */
+/* Please put all the styling for challenge 9 here */
+#Challenge-9 {
+}
+
+/*--CHALLENGE 10 STYLING */
+/* Please put all the styling for challenge 10 here */
+#Challenge-10 {
+}
